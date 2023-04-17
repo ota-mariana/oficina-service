@@ -23,7 +23,7 @@ export function Cliente() {
         </VehicleData>
       </InfoClientAndVehicle>
 
-      <button type='submit'>
+      <button type="submit">
         Iniciar um novo serviço
       </button>
     </ClientContainer>

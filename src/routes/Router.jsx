@@ -1,7 +1,7 @@
 import { Route, Routes } from 'react-router-dom';
 
 import { Cliente } from '../pages/Cliente';
-import { FormsServicos } from '../pages/FormsServicos';
+import { FormsServicos } from '../pages/FormsServico';
 import { Home } from '../pages/Home';
 import { RelatorioServicos } from '../pages/RelatorioServicos';
 import { ServicosFinalizados } from '../pages/ServicosFinalizados';

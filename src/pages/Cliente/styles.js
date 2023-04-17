@@ -24,7 +24,7 @@ export const ClientContainer = styled.main`
 
     &:hover {
       background: ${props => props.theme['dark-blue']};
-  }
+    }
   }
 `
 
