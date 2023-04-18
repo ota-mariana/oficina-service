@@ -1,6 +1,6 @@
 export const dataClient = [
   {
-    name: 'Maria Joana da silva',
+    name: 'Maria Joana da Silva',
     cpf: '459257624-78',
     phone: '4756-1258',
     email: 'maria@joana.com.br',
@@ -14,7 +14,7 @@ export const dataClient = [
     },
   },
   {
-    name: 'Carlos da silva',
+    name: 'Carlos da Silva',
     cpf: '453357624-25',
     phone: '4756-1008',
     email: 'carlos@silva.com.br',
