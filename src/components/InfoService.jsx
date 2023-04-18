@@ -1,6 +1,6 @@
 import { CardDataClient } from './styles';
 
-export function InfoServico() {
+export function InfoService() {
   return (
     <CardDataClient>
       <h3>Cliente</h3>

@@ -1,4 +1,4 @@
-export function ServicosFinalizados() {
+export function FinishedReport() {
   return (
     <div>ServicosFinalizados</div>
   )

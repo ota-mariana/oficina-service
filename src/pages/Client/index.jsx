@@ -1,6 +1,6 @@
 import { ClientContainer, ClientData, VehicleData, InfoClientAndVehicle } from './styles';
 
-export function Cliente() {
+export function Client() {
   return (
     <ClientContainer>
       <h1>Dados do cliente</h1>

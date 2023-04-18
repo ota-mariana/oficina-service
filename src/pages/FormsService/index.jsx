@@ -1,6 +1,6 @@
 import { FormsContainer, ServiceContainer, StartServiceButton } from './styles';
 
-export function FormsServicos() {
+export function FormsService() {
   return (
     <ServiceContainer>
       <h1>Formulário de serviço</h1>
