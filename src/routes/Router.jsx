@@ -1,19 +1,19 @@
 import { Route, Routes } from 'react-router-dom';
 
-import { Cliente } from '../pages/Cliente';
-import { FormsServicos } from '../pages/FormsServico';
+import { Client } from '../pages/Client';
+import { FormsService } from '../pages/FormsService';
 import { Home } from '../pages/Home';
-import { RelatorioServicos } from '../pages/RelatorioServicos';
-import { ServicosFinalizados } from '../pages/ServicosFinalizados';
+import { ServiceReport } from '../pages/ServiceReport';
+import { FinishedReport } from '../pages/FinishedReport';
 
 export function Router() {
   return (
     <Routes>
       <Route path='/' element={ <Home /> } />
-      <Route path='/cliente' element={ <Cliente /> } />
-      <Route path='/formulario' element={ <FormsServicos /> } />
-      <Route path='/relatorio' element={ <RelatorioServicos /> } />
-      <Route path='/finalizados' element={ <ServicosFinalizados /> } />
+      <Route path='/cliente' element={ <Client /> } />
+      <Route path='/formulario' element={ <FormsService /> } />
+      <Route path='/relatorio' element={ <ServiceReport /> } />
+      <Route path='/finalizados' element={ <FinishedReport /> } />
     </Routes>
   )
 }
